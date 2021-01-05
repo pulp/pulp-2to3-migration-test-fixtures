@@ -1,0 +1,12 @@
+---
+document: modulemd-defaults
+version: 1
+data:
+  module: duck
+  stream: 0
+  profiles:
+    0: [default]
+    4: [daffy]
+    5: [laffy]
+    6: [taffy]
+...

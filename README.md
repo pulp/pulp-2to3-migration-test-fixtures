@@ -13,9 +13,7 @@ Each directory has to have:
  - a /var/lib/pulp/content snapshot
  - a /var/lib/pulp/published snapshot
  
-Each directory should have a config to generate the Pulp 2 snapshot.
-The config helps to regenerate the snapshot if needed and it serves as a documentation of what is
- present in the snapshot.
+Each directory should have a description of repositories in it and a way to generate the Pulp 2 snapshot.
 
 
 #### Naming conventions
@@ -47,41 +45,7 @@ Examples:
  * mongodb.mix_base_rpm_container.archive
 
 
-#### Config to generate a snapshot
-
-```json
-
-{
-    "name": "file_base_4repos",
-    "plugins": {
-        "name": "file",
-        "remote_base_url": "https://fixtures.pulpproject.org/", # it is used in combination with
-                                                                # provided repo_id to form a remote
-                                                                # url, if a url is not specified
-                                                                # explicitly for a repo.
-        "repositories": {
-            "repo_id": "file", "download_policy": "immediate", "mode": "additive",
-            "repo_id": "file2", "download_policy": "on_demand", "mode": "mirror", "url": "a custom URL",
-            "repo_id": "file-many", "download_policy": "on_demand", "mode": "mirror",
-            "repo_id": "file-large", "download_policy": "immediate", "mode": "additive",
-       },
-       "post_repo_creation_commands": [
-            "any custom commands",
-            "to run in bash",
-            "after repositories are created/synced/published",
-            "but before a dump is created"
-       ]
-    }
-}
-```
-
-
 #### How to generate a snapshot
-
-TODO: provide a script and instructions to use it
-
-
-#### A manual way to create a snapshot
 
     sudo systemctl stop httpd pulp_workers pulp_resource_manager pulp_celerybeat
     mongo pulp_database --eval "db.dropDatabase()"
@@ -99,13 +63,15 @@ TODO: provide a script and instructions to use it
     pulp-admin iso repo sync run --repo-id file-many &
     pulp-admin iso repo sync run --repo-id file-large &
     
-    mongodump --archive=mongodb.file_base_4repos.archive --db=pulp_database
-    tar -zcvf pulp2_var_lib_published.file_base_4repos.tar.gz  /var/lib/pulp/published
-    tar -zcvf pulp2_var_lib_content.file_base_4repos.tar.gz  /var/lib/pulp/content
     mkdir file_base_4repos
     cd file_base_4repos
+    mongodump --archive=mongodb.file_base_4repos.archive --db=pulp_database
+    sudo -u apache tar -zcvf pulp2_var_lib_published.file_base_4repos.tar.gz  /var/lib/pulp/published
+    sudo -u apache tar -zcvf pulp2_var_lib_content.file_base_4repos.tar.gz  /var/lib/pulp/content
     tar -xvf pulp2_var_lib_published.file_base_4repos.tar.gz
     tar -xvf pulp2_var_lib_content.file_base_4repos.tar.gz
+    rm pulp2_var_lib_published.file_base_4repos.tar.gz
+    rm pulp2_var_lib_content.file_base_4repos.tar.gz
 
 
 ### How to use a snapshot in a test
