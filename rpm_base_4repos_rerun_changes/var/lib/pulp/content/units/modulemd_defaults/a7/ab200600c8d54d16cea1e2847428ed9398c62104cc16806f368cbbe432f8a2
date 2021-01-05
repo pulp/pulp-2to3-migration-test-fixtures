@@ -1,0 +1,9 @@
+---
+document: modulemd-defaults
+version: 1
+data:
+  module: kangaroo
+  stream: 0
+  profiles:
+    0: [default]
+...

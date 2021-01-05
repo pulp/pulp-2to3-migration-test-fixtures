@@ -1,0 +1,30 @@
+---
+document: modulemd
+version: 2
+data:
+  name: duck
+  stream: 0
+  version: 20180730233102
+  context: deadbeef
+  arch: noarch
+  summary: Duck 0.7 module
+  description: >-
+    A module for the duck 0.7 package
+  license:
+    module:
+    - MIT
+  dependencies:
+  - buildrequires:
+      platform: [-f29, -f30]
+      walrus: []
+    requires:
+      platform: [-f29, -f30]
+      walrus: []
+  profiles:
+    default:
+      rpms:
+      - duck
+  artifacts:
+    rpms:
+    - duck-0:0.7-1.noarch
+...

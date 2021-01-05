@@ -1,0 +1,26 @@
+---
+document: modulemd
+version: 2
+data:
+  name: walrus
+  stream: 0.71
+  version: 20180707144203
+  context: c0ffee42
+  arch: x86_64
+  summary: Walrus 0.71 module
+  description: >-
+    A module for the walrus 0.71 package
+  license:
+    module:
+    - MIT
+  profiles:
+    default:
+      rpms:
+      - walrus
+    flipper:
+      rpms:
+      - walrus
+  artifacts:
+    rpms:
+    - walrus-0:0.71-1.noarch
+...

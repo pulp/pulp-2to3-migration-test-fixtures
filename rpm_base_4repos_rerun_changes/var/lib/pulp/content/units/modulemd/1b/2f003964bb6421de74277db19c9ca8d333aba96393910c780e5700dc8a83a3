@@ -1,0 +1,30 @@
+---
+document: modulemd
+version: 2
+data:
+  name: duck
+  stream: 0
+  version: 20180704244205
+  context: deadbeef
+  arch: noarch
+  summary: Duck 0.6 module
+  description: >-
+    A module for the duck 0.6 package
+  license:
+    module:
+    - MIT
+  dependencies:
+  - buildrequires:
+      platform: [f28]
+      walrus: [-5.21]
+    requires:
+      platform: [f28]
+      walrus: [-5.21]
+  profiles:
+    default:
+      rpms:
+      - duck
+  artifacts:
+    rpms:
+    - duck-0:0.6-1.noarch
+...
