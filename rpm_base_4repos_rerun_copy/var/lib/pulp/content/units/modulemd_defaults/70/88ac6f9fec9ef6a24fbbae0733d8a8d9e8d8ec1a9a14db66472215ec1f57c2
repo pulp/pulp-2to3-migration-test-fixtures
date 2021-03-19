@@ -1,0 +1,10 @@
+---
+document: modulemd-defaults
+version: 1
+data:
+  module: walrus
+  stream: 0.71
+  profiles:
+    0.71: [flipper]
+    5.21: [default]
+...
