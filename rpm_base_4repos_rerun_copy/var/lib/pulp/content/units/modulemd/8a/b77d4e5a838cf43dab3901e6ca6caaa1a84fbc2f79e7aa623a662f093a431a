@@ -1,0 +1,24 @@
+---
+document: modulemd
+version: 2
+data:
+  name: duck
+  stream: 5
+  version: 20190621095605
+  context: deadbeef
+  arch: noarch
+  summary: duck:5 stream
+  description: >-
+    A module stream for the duck 0.8 package with a profile name of 'daffy'. Ensures
+    different streams with similar RPM artifacts are not libsolv'd on copy.
+  license:
+    module:
+    - MIT
+  profiles:
+    default:
+      rpms:
+      - duck
+  artifacts:
+    rpms:
+    - duck-0:0.8-1.noarch
+...

@@ -1,0 +1,23 @@
+---
+document: modulemd
+version: 2
+data:
+  name: kangaroo
+  stream: 0
+  version: 20180730223407
+  context: deadbeef
+  arch: noarch
+  summary: Kangaroo 0.3 module
+  description: >-
+    A module for the kangaroo 0.3 package
+  license:
+    module:
+    - MIT
+  profiles:
+    default:
+      rpms:
+      - kangaroo
+  artifacts:
+    rpms:
+    - kangaroo-0:0.3-1.noarch
+...
