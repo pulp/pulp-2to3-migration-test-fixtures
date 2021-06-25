@@ -1,0 +1,51 @@
+Package: odin
+Version: 1.0
+Installed-Size: 9
+Maintainer: root <root@7a2d0b3b117e>
+Architecture: ppc64
+Description: Odin
+ Odin is associated with wisdom, healing, death, royalty, the gallows,
+ knowledge, battle, sorcery, poetry, frenzy, and the runic alphabet, and is
+ the husband of the goddess Frigg.
+Multi-Arch: foreign
+Section: misc
+Priority: optional
+Filename: pool/updates/asgard/odin_1.0_ppc64.deb
+Size: 2084
+MD5sum: 7bd2a828ad6559f62a7e3afcf148a260
+SHA1: 67b359073ba6ccc57036b76d0b60e2562d28e207
+SHA256: be395609af4e2fe462686c4ae3bbe1f2f0cbe822ae54ecbfe4be092440113a94
+
+Package: frigg
+Version: 1.0
+Installed-Size: 9
+Maintainer: root <root@7a2d0b3b117e>
+Architecture: ppc64
+Description: Frigg
+ Frigg is described as the wife of the god Odin.
+Multi-Arch: foreign
+Section: misc
+Priority: optional
+Filename: pool/updates/asgard/frigg_1.0_ppc64.deb
+Size: 2000
+MD5sum: d07b5cac1cf15ab29124f625647588f9
+SHA1: 18d0338f00b35c8bdb02e037d4eb8930fb31ba7d
+SHA256: c7aa7f65dfd2c2dbe48b76ef67403b36d3e6a4b1dc4d6a8b24d46d8e2f3dd7a9
+
+Package: thor
+Version: 1.0
+Installed-Size: 9
+Maintainer: root <root@7a2d0b3b117e>
+Architecture: ppc64
+Description: Thor
+ Thor is a hammer-wielding god associated with thunder, lightning, storms, oak
+ trees, strength, the protection of mankind, and also hallowing and fertility.
+Multi-Arch: foreign
+Section: misc
+Priority: optional
+Filename: pool/updates/asgard/thor_1.0_ppc64.deb
+Size: 2084
+MD5sum: f5badb2377f0da93062397ebdc5e7b39
+SHA1: 85f9e4af7dd07b38d334b28dd09152e8e09ddac2
+SHA256: 71cee8420164f0549fbd7205510e493b8819f42c8942229150f9346d5efe7555
+

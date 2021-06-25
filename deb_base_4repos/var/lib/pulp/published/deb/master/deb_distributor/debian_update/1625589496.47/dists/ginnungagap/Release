@@ -1,0 +1,27 @@
+Label: debian_update
+Suite: ginnungagap
+Codename: ginnungagap
+Date: Tue, 06 Jul 2021 16:38:16 +0000
+Architectures:
+Components: asgard jotunheimr
+MD5sum:
+ d41d8cd98f00b204e9800998ecf8427e                0 jotunheimr/binary-all/Packages
+ da7e26f35ce4a6314e675ba5e43411c4               29 jotunheimr/binary-all/Packages.gz
+ 4059d198768f9f8dc9372dc1c54bc3c3               14 jotunheimr/binary-all/Packages.bz2
+ d41d8cd98f00b204e9800998ecf8427e                0 asgard/binary-all/Packages
+ da7e26f35ce4a6314e675ba5e43411c4               29 asgard/binary-all/Packages.gz
+ 4059d198768f9f8dc9372dc1c54bc3c3               14 asgard/binary-all/Packages.bz2
+SHA1:
+ da39a3ee5e6b4b0d3255bfef95601890afd80709                0 jotunheimr/binary-all/Packages
+ 3d8f36049a2e418ef919bd165e05f1a7ca8b8e03               29 jotunheimr/binary-all/Packages.gz
+ 64a543afbb5f4bf728636bdcbbe7a2ed0804adc2               14 jotunheimr/binary-all/Packages.bz2
+ da39a3ee5e6b4b0d3255bfef95601890afd80709                0 asgard/binary-all/Packages
+ 3d8f36049a2e418ef919bd165e05f1a7ca8b8e03               29 asgard/binary-all/Packages.gz
+ 64a543afbb5f4bf728636bdcbbe7a2ed0804adc2               14 asgard/binary-all/Packages.bz2
+SHA256:
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 jotunheimr/binary-all/Packages
+ 8ff9d7d3a2abd4808fa31f802f8c56fd490d46529e8e31abf7d89a3d424437bf               29 jotunheimr/binary-all/Packages.gz
+ d3dda84eb03b9738d118eb2be78e246106900493c0ae07819ad60815134a8058               14 jotunheimr/binary-all/Packages.bz2
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 asgard/binary-all/Packages
+ 8ff9d7d3a2abd4808fa31f802f8c56fd490d46529e8e31abf7d89a3d424437bf               29 asgard/binary-all/Packages.gz
+ d3dda84eb03b9738d118eb2be78e246106900493c0ae07819ad60815134a8058               14 asgard/binary-all/Packages.bz2
