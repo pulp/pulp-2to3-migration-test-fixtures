@@ -1,0 +1,45 @@
+Label: debian
+Suite: mythology
+Codename: ragnarok
+Date: Tue, 06 Jul 2021 16:35:40 +0000
+Architectures: ppc64 armeb
+Components: asgard jotunheimr
+MD5sum:
+ d41d8cd98f00b204e9800998ecf8427e                0 asgard/binary-all/Packages
+ ea2ccbf09ba894b0edb9e0d72023f426               29 asgard/binary-all/Packages.gz
+ 4059d198768f9f8dc9372dc1c54bc3c3               14 asgard/binary-all/Packages.bz2
+ 6372cf5a731b40b3e87f2a83d8687ae3             1553 asgard/binary-ppc64/Packages
+ 29d8e439bf0e9b6f8dc6e0cb285404ac              773 asgard/binary-ppc64/Packages.gz
+ 34a58a430a838891951be44e0a715e9d              838 asgard/binary-ppc64/Packages.bz2
+ 51109c40265cd686152acd3b3b018461              476 jotunheimr/binary-armeb/Packages
+ 0e44c964edd57020293b65e034043de8              366 jotunheimr/binary-armeb/Packages.gz
+ 24f2cf39fd525c23030f9492cbb6168a              387 jotunheimr/binary-armeb/Packages.bz2
+ d41d8cd98f00b204e9800998ecf8427e                0 jotunheimr/binary-all/Packages
+ ea2ccbf09ba894b0edb9e0d72023f426               29 jotunheimr/binary-all/Packages.gz
+ 4059d198768f9f8dc9372dc1c54bc3c3               14 jotunheimr/binary-all/Packages.bz2
+SHA1:
+ da39a3ee5e6b4b0d3255bfef95601890afd80709                0 asgard/binary-all/Packages
+ 46e8aa63589b5bd9d5d483d3d4b11038dbeec215               29 asgard/binary-all/Packages.gz
+ 64a543afbb5f4bf728636bdcbbe7a2ed0804adc2               14 asgard/binary-all/Packages.bz2
+ 1503e704ef6fe9b8ffd8a4b9251bfbb2a446068e             1553 asgard/binary-ppc64/Packages
+ dfbd086a8f2d4851d02a2efa26d81e8782966db4              773 asgard/binary-ppc64/Packages.gz
+ b8e3b873d3cd6a30424c18f88883f5fdf6c9004b              838 asgard/binary-ppc64/Packages.bz2
+ 85d5d4f78cfb6da66415859a9e6ce8cd091e95b7              476 jotunheimr/binary-armeb/Packages
+ ee2e91eab11aead584665ad37bbb4344110d8ac3              366 jotunheimr/binary-armeb/Packages.gz
+ c82b30e46cbb2873b38503df8519acfd2a457276              387 jotunheimr/binary-armeb/Packages.bz2
+ da39a3ee5e6b4b0d3255bfef95601890afd80709                0 jotunheimr/binary-all/Packages
+ 46e8aa63589b5bd9d5d483d3d4b11038dbeec215               29 jotunheimr/binary-all/Packages.gz
+ 64a543afbb5f4bf728636bdcbbe7a2ed0804adc2               14 jotunheimr/binary-all/Packages.bz2
+SHA256:
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 asgard/binary-all/Packages
+ 13a598a9554ef70a35ceacb962818c9b6a4c2dad277ea506130901dd80e46034               29 asgard/binary-all/Packages.gz
+ d3dda84eb03b9738d118eb2be78e246106900493c0ae07819ad60815134a8058               14 asgard/binary-all/Packages.bz2
+ 94f091188c0eb138750cdbdd147f34f07034250c481d6f0d90788e1fca98f449             1553 asgard/binary-ppc64/Packages
+ e10f646248d334ba9e1d5fdc5c44a3beb66339d440e7fa9356d1dcf09a5bef38              773 asgard/binary-ppc64/Packages.gz
+ ca3fb7114447a6f146fa2f9db1556c8c2b01159f5f344cfc3be50c78406aa0f3              838 asgard/binary-ppc64/Packages.bz2
+ 3e1d4cfc403868d7d1e47879e3d710908781dae70899d26089d2b2a72b023923              476 jotunheimr/binary-armeb/Packages
+ 45e99382949e85544c7b9e8008f77471e9ca793726fa4d68a685691c9ef0e579              366 jotunheimr/binary-armeb/Packages.gz
+ 778f5a8de680290236363004a1b835f4dfd89dd0d13d45001b384c5d64246f28              387 jotunheimr/binary-armeb/Packages.bz2
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 jotunheimr/binary-all/Packages
+ 13a598a9554ef70a35ceacb962818c9b6a4c2dad277ea506130901dd80e46034               29 jotunheimr/binary-all/Packages.gz
+ d3dda84eb03b9738d118eb2be78e246106900493c0ae07819ad60815134a8058               14 jotunheimr/binary-all/Packages.bz2
